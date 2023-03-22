@@ -5,25 +5,10 @@ export const mainStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#F5F5F5",
   },
-  navbar: {
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    height: 60,
-    backgroundColor: "#fff",
-    flexDirection: "row",
-    justifyContent: "space-around",
+  header: {
+    justifyContent: "flex-end",
     alignItems: "center",
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-
-    elevation: 5,
+    gap: "10px",
   },
   title: {
     justifyContent: "center",

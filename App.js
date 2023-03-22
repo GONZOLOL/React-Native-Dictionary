@@ -12,6 +12,7 @@ function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator
+        initialRouteName={"Home"}
         screenOptions={({ route }) => ({
           tabBarIcon: ({ color, size }) => {
             let iconName;
